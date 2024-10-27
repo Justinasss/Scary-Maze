@@ -271,10 +271,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Start
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a8127aeef1140c646a1a69b609d69146, type: 2}
+  m_sharedMaterial: {fileID: -4766020121234298452, guid: a8127aeef1140c646a1a69b609d69146, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -392,6 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3fd96b3317eaf499b09cb6b4139258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: Lvl1
 --- !u!1 &805074448
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,19 +475,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 805074451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 709253294}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &805074451
 MonoBehaviour:
   m_ObjectHideFlags: 0

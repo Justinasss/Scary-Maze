@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GoBack
   - wall
+  - bo
   layers:
   - Default
   - TransparentFX

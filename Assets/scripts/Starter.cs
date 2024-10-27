@@ -5,16 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Starter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-       
-    }
-
-    // Update is called once per frame
+    public string sceneName = "Lvl1"; // The name of the scene you want to load
+    
     void Update()
     {
-        SceneManager.LoadScene("Lvl1");
+        // Check if the left mouse button is pressed
+        if (Input.GetMouseButtonDown(0))
+        {
+            // Load the specified scene
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

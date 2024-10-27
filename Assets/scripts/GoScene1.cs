@@ -13,5 +13,13 @@ public class GoScene1 : MonoBehaviour
             // Load the "Start" scene
             SceneManager.LoadScene("Start");
         }
+
+        if (other.CompareTag("bo"))
+        {
+            // Load the "Start" scene
+            SceneManager.LoadScene("Boo");
+        }
+
+
     }
 }
