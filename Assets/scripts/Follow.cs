@@ -22,7 +22,7 @@ public class Follow : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Collided with: " + other.gameObject.name); // Debug line
+        Debug.Log("Collided with: " + other.gameObject.name); 
         if (other.CompareTag("Wall"))
         {
             SceneManager.LoadScene("Start");
