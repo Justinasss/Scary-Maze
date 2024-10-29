@@ -9,10 +9,10 @@ public class Teleporter : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the player collides with the teleporter
-        if (other.CompareTag("Player")) // Make sure your player is tagged as "Player"
+        
+        if (other.CompareTag("Player")) 
         {
-            // Load the specified scene
+           
             SceneManager.LoadScene(nextScene);
         }
     }
